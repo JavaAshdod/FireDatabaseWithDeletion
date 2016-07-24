@@ -1,4 +1,4 @@
-package tomer.edu.firedemo;
+package tomer.edu.firedemo.dialogs;
 
 
 import android.os.Bundle;
@@ -15,6 +15,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import tomer.edu.firedemo.R;
 import tomer.edu.firedemo.models.Todo;
 
 

@@ -1,24 +1,16 @@
-package tomer.edu.firedemo;
+package tomer.edu.firedemo.adapters;
 
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
-import java.util.List;
-
+import tomer.edu.firedemo.R;
 import tomer.edu.firedemo.models.Todo;
+import tomer.edu.firedemo.utils.FirebaseRecyclerAdapter;
 
 /**
  * 1) create an inner class of the viewHolder

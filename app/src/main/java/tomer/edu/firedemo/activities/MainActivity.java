@@ -1,4 +1,4 @@
-package tomer.edu.firedemo;
+package tomer.edu.firedemo.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import tomer.edu.firedemo.R;
+import tomer.edu.firedemo.adapters.TodosRecyclerAdapter;
+import tomer.edu.firedemo.dialogs.AddMessageDialogFragment;
 
 public class MainActivity extends AppCompatActivity {
 

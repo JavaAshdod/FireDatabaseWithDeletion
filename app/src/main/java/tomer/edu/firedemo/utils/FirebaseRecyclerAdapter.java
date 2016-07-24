@@ -1,4 +1,4 @@
-package tomer.edu.firedemo;
+package tomer.edu.firedemo.utils;
 /*
  * Copyright 2016 Google Inc. All Rights Reserved.
  *
@@ -21,14 +21,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.Exclude;
 import com.google.firebase.database.Query;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+
+import tomer.edu.firedemo.utils.FirebaseArray;
 
 /**
  * This class is a generic way of backing an RecyclerView with a Firebase location.

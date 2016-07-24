@@ -1,4 +1,4 @@
-package tomer.edu.firedemo;
+package tomer.edu.firedemo.utils;
 /*
  * Copyright 2016 Google Inc. All Rights Reserved.
  *
