@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
      * Start an intent without adding the activity to the stack
      */
     private void gotoMain() {
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        Intent intent = new Intent(LoginActivity.this, UserListsActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
