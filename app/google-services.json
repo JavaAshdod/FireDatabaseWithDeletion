@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "621680237801",
+    "firebase_url": "https://firemon-20e06.firebaseio.com",
+    "project_id": "firemon-20e06",
+    "storage_bucket": "firemon-20e06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621680237801:android:e074a3272d52cb9a",
+        "android_client_info": {
+          "package_name": "tomer.edu.firedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621680237801-c0i8hqhu1elhja802429gsf4i93bm7bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tomer.edu.firedemo",
+            "certificate_hash": "872360563CA3824BA4EDB213F4871EB84D0DFA1B"
+          }
+        },
+        {
+          "client_id": "621680237801-d5did66bljv53n1nvkii1ef3v7kpvieu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9e97m-26LYYKhQCMNmwkHeG7NMKBaJGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621680237801-d5did66bljv53n1nvkii1ef3v7kpvieu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
