@@ -13,6 +13,7 @@ import com.google.firebase.database.DatabaseReference;
 import tomer.edu.firedemo.Const;
 import tomer.edu.firedemo.R;
 import tomer.edu.firedemo.activities.ShareListWithUsersActivity;
+import tomer.edu.firedemo.activities.ShoppingListItemsActivity;
 import tomer.edu.firedemo.models.ShoppingList;
 import tomer.edu.firedemo.utils.FirebaseRecyclerAdapter;
 
@@ -31,6 +32,15 @@ public class UserShoppingListsAdapter extends FirebaseRecyclerAdapter<ShoppingLi
     @Override
     protected void populateViewHolder(final UserShoppingListsViewHolder holder, final ShoppingList model, final int position) {
         holder.tvListTitle.setText(model.getTitle());
+
+        holder.shoppingLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ShoppingListItemsActivity.class);
+                intent.putExtra(Const.EXTRA_PID, holder.key);
+                context.startActivity(intent);
+            }
+        });
         holder.ivShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

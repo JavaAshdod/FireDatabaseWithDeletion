@@ -6,4 +6,5 @@ package tomer.edu.firedemo;
 public class Const {
     public final static String EXTRA_USER_LIST = "shoppingList";
     public final static String EXTRA_USER_LIST_KEY = "shoppingListKey";
+    public final static String EXTRA_PID = "shoppingListID";
 }

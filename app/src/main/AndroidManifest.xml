@@ -11,14 +11,8 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".activities.LoginActivity" />
-
-
         <activity
             android:name=".activities.UserListsActivity"
             android:label="@string/title_activity_user_lists"
@@ -32,7 +26,8 @@
         <activity
             android:name=".activities.ShareListWithUsersActivity"
             android:label="@string/title_activity_share_list_with_users"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ShoppingListItemsActivity"></activity>
     </application>
 
 </manifest>
